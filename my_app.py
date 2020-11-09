@@ -7,7 +7,7 @@ st.write("# AI Art")
 
 st.write("In the following an attempt is made to generate a new image. For this purpose two images are necessary as starting point. A content image and a style image. The algorithm tries to apply or imitate the style of one image to the other image.")
 
-st.write("placeholder for example")
+st.write("*placeholder for image example*")
 
 st.write("### Content Image")
 st.file_uploader('File uploader', key="c")
