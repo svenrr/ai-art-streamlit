@@ -5,10 +5,10 @@ import pandas as pd
 st.write("# AI Art") 
 
 st.write("### Content Image")
-st.file_uploader('File uploader', key=c)
+st.file_uploader('File uploader', key="c")
 
 st.write("### Style Image")
-st.file_uploader('File uploader', key=s)
+st.file_uploader('File uploader', key="s")
 
 if st.button("Magic"): 
   st.progress(progress_variable_1_to_100)
