@@ -11,7 +11,7 @@ st.file_uploader('File uploader', key="c")
 st.write("### Style Image")
 st.file_uploader('File uploader', key="s")
 
-if st.button("Magic"): 
+if st.button("Generate new image"): 
   my_bar = st.progress(0)
   st.spinner()
   with st.spinner(text='In progress'):
