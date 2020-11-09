@@ -14,7 +14,7 @@ if st.button("Magic"):
   st.progress(progress_variable_1_to_100)
   st.spinner()
   with st.spinner(text='In progress'):
-  time.sleep(5)
-  st.success('Done')
+    time.sleep(5)
+    st.success('Done')
 
 st.write("### Output")
